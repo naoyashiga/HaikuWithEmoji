@@ -1,0 +1,41 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Haiku with Emoji"/>
+    <meta name="author" content="naoyashiga"/>
+    <title>俳句と絵文字</title>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <script src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" \type="text/css" href="/global.css"/>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <main class="mdl-layout__content">
+        <div class="mdl-grid mdl-grid--mylayout">
+          <div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--center">
+            <div class="mdl-card mdl-shadow--2dp mdl-card--full-width mdl-card-mylayout">
+              <div class="mdl-card__supporting-text mdl-card--content-width mdl-typography--text-center">
+                <ul class="haiku-list">
+                  <li class="haiku-list__item">古池や蛙飛びこむ水の音<span class="haiku-span-emoji"></span></li>
+                </ul>
+                <div class="haiku-buttonArea">
+                  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect haiku-btn-shuffle"><i class="material-icons">refresh</i></button>
+                </div>
+              </div>
+              <div class="mdl-card__actions mdl-card--border"><a class="mdl-button mdl-button--icon socialArea-twitter-link"><i aria-hidden="true" class="fa fa-twitter"></i></a><a class="mdl-button mdl-button--icon socialArea-facebook-link"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="/bundle.js"></script>
+  </body>
+</html>
